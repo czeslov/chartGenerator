@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ffffff , rgb(228, 232, 255));
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.adder {
+  margin: 20px auto;
+}
+
+div>h1 {
+  color: #30475E; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 20px 0 24px; text-align: center; text-transform: uppercase; 
+}
+
+h1>span{
+  color: #F05454;
+}
+
+.adder input{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.adder button{
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(4, 0, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+.card.completed {
+  opacity: .2;
+}
+
+.card h2{
+  word-wrap: break-word;
+}
+
+.card.completed h2 {
+  text-decoration: line-through;
+}
+
+.container {
+  display: flex;
+}
+
+.firstContainer {
+  flex-basis: 50%;
+  overflow-y:scroll; 
+  overflow-x: hidden;
+  height:70vh;
+}
+
+.secondContainer {
+  flex-basis: 30%;
+  margin: 0 auto;
+}
