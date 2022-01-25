@@ -123,7 +123,7 @@ class Todo extends React.Component {
                     {elements}
                     </div>
                     <div className="secondContainer">
-                    <Pie width={100} height={500} data={this.state.data}/>
+                    <Pie data={this.state.data}/>
                     </div>
                 </div>
             </div>
