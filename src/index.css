@@ -21,6 +21,12 @@ div>h1 {
   color: #30475E; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 20px 0 24px; text-align: center; text-transform: uppercase; 
 }
 
+@media only screen and (max-width: 600px) {
+  div>h1{
+    font-size: 36px;
+  }
+}
+
 h1>span{
   color: #F05454;
 }
