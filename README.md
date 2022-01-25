@@ -1,4 +1,4 @@
-React app to generate chart for example data of title and value.
+React app to generate chart from example data of title and value.
 
 ### `npm start`
 
