@@ -23,7 +23,7 @@ div>h1 {
 
 @media only screen and (max-width: 600px) {
   div>h1{
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
